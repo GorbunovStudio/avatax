@@ -1,11 +1,11 @@
 {
-    "name": "GorbunovStudio/avatax",
+    "name": "gorbunovstudio/avatax",
     "type": "magento-module",
     "description": "This extension integrates Magento with AvaTax, a tax service provided by Avalara. ",
     "homepage": "http://www.magentocommerce.com/magento-connect/6760.html",
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "GorbunovStudio/avatax16":"^0.2.4-alpha"
+        "gorbunovstudio/avatax16":"^0.2.5-alpha"
     },
     "repositories": [
         {
@@ -25,7 +25,7 @@
     },
     "scripts": {
         "copy-avatax16-lib":[
-            "php -r \"require './composer/onepica/install-functions.php';  copy_recursive('./vendor/onepica/avatax16/src','./lib');\""
+            "php -r \"require './composer/gorbunovstudio/install-functions.php';  copy_recursive('./vendor/gorbunovstudio/avatax16/src','./lib');\""
         ],
         "post-update-cmd": [
             "@copy-avatax16-lib"
