@@ -5,7 +5,7 @@
     "homepage": "http://www.magentocommerce.com/magento-connect/6760.html",
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "GorbunovStudio/avatax16-lib":"^0.2.1-alpha"
+        "GorbunovStudio/avatax16-lib":"^0.2.2-alpha"
     },
     "license": "OSL-3.0",
     "authors":[
