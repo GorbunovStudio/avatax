@@ -7,6 +7,12 @@
         "magento-hackathon/magento-composer-installer": "*",
         "GorbunovStudio/avatax16":"^0.2.3-alpha"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/GorbunovStudio/avatax16-lib"
+        }
+    ],
     "license": "OSL-3.0",
     "authors":[
         {
